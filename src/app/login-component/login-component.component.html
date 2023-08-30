@@ -1,21 +1,45 @@
+<div class="row">
+  <div class="col-lg-6 col-md-8 mx-auto" style="padding:60px; margin: 60px;">
+    <form novalidate>
+      <div class="head">
+        <h1 class="head">Welcome to Smart</h1>
 
+      </div>
 
-<mat-toolbar>
-    <span>Login</span>
- </mat-toolbar>
+      <!-- bottun student / Student / success -->
+      <div class="btn-main">
+        <button type="button" class="btn btn-danger">Student</button>
+        <button type="button" class="btn btn-success">Teacher</button>
+        <button type="button" class="btn btn-primary">Admin</button>
 
- <mat-card-content>
-    <form class="my-form">
-        <mat-form-field class="full-width">
-            <mat-label>Email</mat-label>
-            <input  matInput  placeholder="Email" name="email">
-         </mat-form-field><br>
-         <mat-form-field class="full-width">
-            <mat-label>Password</mat-label>
-            <input  matInput  placeholder="Password" name="password">
-         </mat-form-field>
+      </div>
+      <!-- form-contant -->
+      <!-- Email input -->
+        <div style="padding: 10px;">
+          <label for="validationCustom01" class="form-label">Username or Mail</label>
+          <input type="text" class="form-control" id="validationCustom01" value="ex:aresh@gmail.com" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div style="padding: 10px;">
+          <label for="validationCustom02" class="form-label">Password</label>
+          <input type="password" class="form-control" id="validationCustom02" value="@#$%$^&T" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+      <!-- Submit button -->
+      <button style="margin: 10px;" id="login-btn" type="submit" class="btn btn-primary btn-block">Login</button>
     </form>
-  </mat-card-content>
-  <mat-card-actions>
-    <button mat-raised-button type="submit">Login</button>
-  </mat-card-actions>
+
+  </div>
+
+
+
+
+  <div class="col-lg-6 col-md-8 mx-auto">
+    <app-imglog></app-imglog>
+  </div>
+</div>

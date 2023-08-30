@@ -12,6 +12,9 @@ import {MatCardModule} from '@angular/material/card';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import { AboutComponent } from './about/about.component';
+import { ImglogComponent } from './imglog/imglog.component';
+import { ReactiveFormsModule } from '@angular/forms'
+
 
 
 @NgModule({
@@ -19,7 +22,8 @@ import { AboutComponent } from './about/about.component';
     AppComponent,
     RegistrationComponentComponent,
     LoginComponentComponent,
-    AboutComponent
+    AboutComponent,
+    ImglogComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +33,8 @@ import { AboutComponent } from './about/about.component';
     MatButtonModule,
     MatCardModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,14 @@
+
+
+
+
+.btn-main{
+  padding: 10px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.head{
+
+  font-size: 50px;
+}
